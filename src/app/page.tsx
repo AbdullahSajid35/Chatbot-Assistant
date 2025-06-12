@@ -106,12 +106,11 @@ export default function PersonalAssistant() {
               <Sparkles className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-xl font-bold text-gray-900 mb-1">
-              Abdullah's AI Assistant
+              Abdullah&apos;s AI Assistant
             </h1>
             <p className="text-sm text-gray-600 max-w-md mx-auto">
-              {
-                "Get insights about Abdullah's professional journey, skills, and expertise"
-              }
+              Get insights about Abdullah&apos;s professional journey, skills,
+              and expertise
             </p>
           </div>
 
@@ -226,9 +225,7 @@ export default function PersonalAssistant() {
                   <Input
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
-                    placeholder={
-                      "Ask about Abdullah's experience, skills, or projects..."
-                    }
+                    placeholder="Ask about Abdullah's experience, skills, or projects..."
                     disabled={isLoading}
                     className="w-full bg-gray-50 border-gray-200 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-xl px-3 py-2 text-sm transition-all duration-200"
                   />
